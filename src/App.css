@@ -1,0 +1,29 @@
+.calculator{
+    height: 500px;
+    max-width: 300px;
+    margin: auto;
+}
+.result {
+    height: 25%;
+    background-color: lightgray;
+    width: 100%;
+    text-align: end;
+}
+.result p {
+    font-size: 50px;
+    word-wrap: break-word;
+}
+.button {
+    display: block;
+    height: 75%;
+}
+button{
+    width: 25%;
+    height: 20%;
+    font-size: 30px;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: gray;
+}
